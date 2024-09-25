@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MIT6.5840 on Blowfish</title><link>https://xyz-3.github.io/series/mit6.5840/</link><description>Recent content in MIT6.5840 on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Blowfish</copyright><lastBuildDate>Thu, 15 Aug 2024 16:47:43 +0800</lastBuildDate><atom:link href="https://xyz-3.github.io/series/mit6.5840/index.xml" rel="self" type="application/rss+xml"/><item><title>MIT 6.5840 Lab2</title><link>https://xyz-3.github.io/posts/mit6.5840/lab2/</link><pubDate>Thu, 15 Aug 2024 16:47:43 +0800</pubDate><guid>https://xyz-3.github.io/posts/mit6.5840/lab2/</guid><description> From MIT 6.5840 / Spring 2024, Lab2 - Key/Value Server
-Linearizability #</description></item><item><title>MIT 6.5840 Lab1</title><link>https://xyz-3.github.io/posts/mit6.5840/lab1/</link><pubDate>Thu, 15 Aug 2024 13:49:05 +0800</pubDate><guid>https://xyz-3.github.io/posts/mit6.5840/lab1/</guid><description>开一个新坑（我就是这种喜欢开很多坑然后三分钟热度的人😭
-From MIT 6.5840 / Spring 2024, Lab1 - MapReduce
-MapReduce Paper: http://research.google.com/archive/mapreduce-osdi04.pdf
-Pre Handle # 在 src/main/ 目录下，已经给出了sequential版本的实现: mrsequential.go(只需要运行该文件就可以完成sequential mapreduce).
-在这个目录下还有两个文件 mrcoordinator.go &amp;amp; mrworker.go，它们会调用 src/mr/ 目录下的 coordinator.go和worker.go文件中的函数来完成分片模拟下的mapreduce的处理。
-我们可以观察一下mrcoordinator.go 和 mrworker.</description></item></channel></rss>
